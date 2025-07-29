@@ -1,0 +1,7 @@
+streamlit
+firebase-admin
+pandas
+PyPDF2
+google-cloud-storage
+google-cloud-firestore
+
