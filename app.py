@@ -7,7 +7,7 @@ import os, json
 
 # Firebase 초기화
 if not firebase_admin._apps:
-    firebase_key = json.loads(os.environ["FIREBASE_KEY"])
+    firebase_key = json.loads(os.environ["Firebase_KEY"])
     cred = credentials.Certificate(firebase_key)
     initialize_app(cred, {
         'storageBucket': 'class-recorder99.firebasestorage.app'
